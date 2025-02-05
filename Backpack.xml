@@ -5,11 +5,90 @@
 
    section_end()!
 
+   section_start("\u007b\u0022n\u0022:\u0022Excel_data\u0022,\u0022fd\u0022:\u0022\u007b\u005c\u0022fd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022hr\u005c\u0022:false,\u005c\u0022rd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022rv\u005c\u0022:\u005c\u0022FUNCTION_RESULT\u005c\u0022,\u005c\u0022p\u005c\u0022:[]\u007d\u0022\u007d", 548411402)!
+   function Excel_data()
+   {
+   section_insert()
+      section_start("", 344638687)!
+      /*Dat:eyJzIjoiRXhjZWxfU2V0Q29sdW1uV2lkdGgiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ29sdW1uSW5kZXhPck5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjAiLCJjbGFzcyI6ImludCIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6IldpZHRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIyNSIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjpmYWxzZX1dfQ==*/
+      _call_function(Excel_SetColumnWidth,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "ColumnIndexOrName":(0), "Width":(25), "Sync":(true), "Timeout":(60000)})!
+      section_end()!
+
+      section_start("", 817717632)!
+      /*Dat:eyJzIjoiRXhjZWxfU2V0Q29sdW1uV2lkdGgiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ29sdW1uSW5kZXhPck5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEiLCJjbGFzcyI6ImludCIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJXaWR0aCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTUiLCJjbGFzcyI6ImludCIsImlzX2RlZiI6ZmFsc2V9XX0=*/
+      _call_function(Excel_SetColumnWidth,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "ColumnIndexOrName":(1), "Width":(15), "Sync":(true), "Timeout":(60000)})!
+      section_end()!
+
+      section_start("", 90558931)!
+      /*Dat:eyJzIjoiRXhjZWxfU2V0Q29sdW1uV2lkdGgiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ29sdW1uSW5kZXhPck5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIiLCJjbGFzcyI6ImludCIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJXaWR0aCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMzUiLCJjbGFzcyI6ImludCIsImlzX2RlZiI6ZmFsc2V9XX0=*/
+      _call_function(Excel_SetColumnWidth,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "ColumnIndexOrName":(2), "Width":(35), "Sync":(true), "Timeout":(60000)})!
+      section_end()!
+
+      section_start("", 708198153)!
+      /*Dat:eyJzIjoiRXhjZWxfU2V0Q29sdW1uV2lkdGgiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ29sdW1uSW5kZXhPck5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjMiLCJjbGFzcyI6ImludCIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJXaWR0aCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMjUiLCJjbGFzcyI6ImludCIsImlzX2RlZiI6ZmFsc2V9XX0=*/
+      _call_function(Excel_SetColumnWidth,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "ColumnIndexOrName":(3), "Width":(25), "Sync":(true), "Timeout":(60000)})!
+      section_end()!
+
+      section_start("", 454416906)!
+      /*Dat:eyJzIjoiRXhjZWxfU2V0U3R5bGVUb0NlbGwiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2VsbEFkZHJlc3MiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkExIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJTdHlsZU5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImJvbGQiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJTdHlsZVZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfV19*/
+      _call_function(Excel_SetStyleToCell,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "CellAddress":("A1"), "StyleName":("bold"), "StyleValue":("true"), "Sync":(true), "Timeout":(60000)})!
+      section_end()!
+
+      section_start("", 710246232)!
+      /*Dat:eyJzIjoiRXhjZWxfU2V0U3R5bGVUb0NlbGxzUmFuZ2UiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiRnJvbUNlbGwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkExIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiVG9DZWxsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJEMiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IlN0eWxlTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYm9sZCIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IlN0eWxlVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9XX0=*/
+      _call_function(Excel_SetStyleToCellsRange,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "FromCell":("A1"), "ToCell":("D2"), "StyleName":("bold"), "StyleValue":("true"), "Sync":(true), "Timeout":(60000)})!
+      section_end()!
+
+      section_start("", 617377840)!
+      /*Dat:eyJzIjoiRXhjZWxfV3JpdGVUb0NlbGwiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2VsbEFkZHJlc3MiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkExIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJEYXRhIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJEYXkge3tEYXkgbnVtYmVyfX0gZGF0YSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjp0cnVlfV19*/
+      RS("Day number", false, false)!
+      RESOURCE_319211 = _result().get()
+      _call_function(Excel_WriteToCell,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "CellAddress":("A1"), "Data":("Day " + RESOURCE_319211 + " data"), "Convert":(true), "SetFormat":(true), "Sync":(true), "Timeout":(60000)})!
+      section_end()!
+
+      section_start("", 344005256)!
+      /*Dat:eyJzIjoiRXhjZWxfV3JpdGVUb0NlbGwiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2VsbEFkZHJlc3MiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkEyIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiRGF0YSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiVXNlcm5hbWUiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjp0cnVlfV19*/
+      _call_function(Excel_WriteToCell,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "CellAddress":("A2"), "Data":("Username"), "Convert":(false), "SetFormat":(true), "Sync":(true), "Timeout":(60000)})!
+      section_end()!
+
+      section_start("", 377171656)!
+      /*Dat:eyJzIjoiRXhjZWxfV3JpdGVUb0NlbGwiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2VsbEFkZHJlc3MiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkIyIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiRGF0YSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiVXNlciBQTkwgKCQpIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWUsImlzX2RlZiI6dHJ1ZX1dfQ==*/
+      _call_function(Excel_WriteToCell,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "CellAddress":("B2"), "Data":("User PNL ($)"), "Convert":(false), "SetFormat":(true), "Sync":(true), "Timeout":(60000)})!
+      section_end()!
+
+      section_start("", 718060469)!
+      /*Dat:eyJzIjoiRXhjZWxfV3JpdGVUb0NlbGwiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2VsbEFkZHJlc3MiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkMyIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiRGF0YSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiVG90YWwgUE5MICgkKSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2UsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJDaGVjazIiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOnRydWV9XX0=*/
+      _call_function(Excel_WriteToCell,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "CellAddress":("C2"), "Data":("Total PNL ($)"), "Convert":(false), "SetFormat":(true), "Sync":(true), "Timeout":(60000)})!
+      section_end()!
+
+      section_start("", 746266439)!
+      /*Dat:eyJzIjoiRXhjZWxfV3JpdGVUb0NlbGwiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2VsbEFkZHJlc3MiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkQyIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiRGF0YSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiVG90YWwgdXNlcnMgd2l0aCBwb3NpdGl2ZSBQTkwiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWUsImlzX2RlZiI6dHJ1ZX0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWUsImlzX2RlZiI6dHJ1ZX1dfQ==*/
+      _call_function(Excel_WriteToCell,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "CellAddress":("D2"), "Data":("Total users with positive PNL"), "Convert":(true), "SetFormat":(true), "Sync":(true), "Timeout":(60000)})!
+      section_end()!
+
+      section_start("", 329083314)!
+      /*Dat:eyJzIjoiRXhjZWxfV3JpdGVUb0NlbGwiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2VsbEFkZHJlc3MiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkMzIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiRGF0YSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tUT1RBTF9WT0xVTUVdXSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjp0cnVlfV19*/
+      _call_function(Excel_WriteToCell,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "CellAddress":("C3"), "Data":(VAR_TOTAL_VOLUME), "Convert":(true), "SetFormat":(true), "Sync":(true), "Timeout":(60000)})!
+      section_end()!
+
+      section_start("", 26877052)!
+      /*Dat:eyJzIjoiRXhjZWxfV3JpdGVUb0NlbGwiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2VsbEFkZHJlc3MiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkQzIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiRGF0YSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tQTkxfUE9TSVRJVkVfVVNFUlNdXSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjp0cnVlfV19*/
+      _call_function(Excel_WriteToCell,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "CellAddress":("D3"), "Data":(VAR_PNL_POSITIVE_USERS), "Convert":(true), "SetFormat":(true), "Sync":(true), "Timeout":(60000)})!
+      section_end()!
+
+   }
+   section_end()!
+
    _call(_on_start, null)!
 
    section_start("", 812068530)!
    /*Dat:eyJzIjoicHJvamVjdF9kaXJlY3RvcnkiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlBST0pFQ1RfRElSRUNUT1JZIiwiaXNfZGVmIjp0cnVlfV19*/
    VAR_PROJECT_DIRECTORY = project_directory();
+   section_end()!
+
+   section_start("", 323960039)!
+   /*Dat:eyJzIjoiRXhjZWxfQ3JlYXRlRmlsZSIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiRmlsZVBhdGgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbUFJPSkVDVF9ESVJFQ1RPUlldXS9EYWlseV9zdGF0aXN0aWNzLnhsc3giLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9XX0=*/
+   _call_function(Excel_CreateFile,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "Sync":(true), "Timeout":(60000)})!
    section_end()!
 
    section_start("", 185487075)!
@@ -64,6 +143,11 @@
    }
    section_end()!
 
+   section_start("", 706761123)!
+   /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IlNldFZhcmlhYmxlTmFtZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiZXhjZWxfcG9zaXRpb24iLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2V0VmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMyIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX1dfQ==*/
+   VAR_EXCEL_POSITION = "3"
+   section_end()!
+
    section_start("", 200147123)!
    /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IlNldFZhcmlhYmxlTmFtZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoib2Zmc2V0IiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IlNldFZhcmlhYmxlVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjAiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9XX0=*/
    VAR_OFFSET = "0"
@@ -84,7 +168,7 @@
    VAR_POSITIVE_PNL = true
    section_end()!
 
-   section_start("\u007b\u0022f\u0022:true\u007d", 443732566)!
+   section_start("", 443732566)!
    /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IldoaWxlRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tQT1NJVElWRV9QTkxdXSA9PSB0cnVlIiwiY2xhc3MiOiJleHByZXNzaW9uIiwiaXNfZGVmIjpmYWxzZX1dfQ==*/
    _do(function(){
    _set_action_info({ name: "While" });
@@ -120,6 +204,15 @@
       VAR_CYCLE_INDEX = _iterator() - 1 + parseInt(0)
       if(VAR_CYCLE_INDEX > parseInt(99))_break();
       section_insert()
+         section_start("", 109357178)!
+         /*Dat:eyJzIjoiSnNvbkdldFZhbHVlIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJEYXRhIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0RBVEFdXSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IlBhdGgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbQ1lDTEVfSU5ERVhdXS51c2VyQWxpYXMiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJ1c2VybmFtZSIsImlzX2RlZiI6ZmFsc2V9XX0=*/
+         try {
+         VAR_USERNAME = JPath.value(VAR_DATA, VAR_CYCLE_INDEX + ".userAlias");
+         } catch (e) {
+         fail(e);
+         }
+         section_end()!
+
          section_start("", 407672790)!
          /*Dat:eyJzIjoiSnNvbkdldFZhbHVlIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJEYXRhIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0RBVEFdXSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IlBhdGgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbQ1lDTEVfSU5ERVhdXS52b2x1bWUiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJ2b2x1bWUiLCJpc19kZWYiOmZhbHNlfV19*/
          try {
@@ -135,14 +228,39 @@
          _set_if_expression("W1tWT0xVTUVdXSA+IDA=");
          _if(_cycle_params().if_else,function(){
          section_insert()
+            section_start("", 603918343)!
+            /*Dat:eyJzIjoiRXhjZWxfV3JpdGVUb0NlbGwiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2VsbEFkZHJlc3MiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkFbW0VYQ0VMX1BPU0lUSU9OXV0iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJEYXRhIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1VTRVJOQU1FXV0iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjp0cnVlfV19*/
+            _call_function(Excel_WriteToCell,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "CellAddress":("A" + VAR_EXCEL_POSITION), "Data":(VAR_USERNAME), "Convert":(false), "SetFormat":(true), "Sync":(true), "Timeout":(60000)})!
+            section_end()!
+
+            section_start("", 953823584)!
+            /*Dat:eyJzIjoidG9fbnVtYmVyIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJzdHJpbmciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbVk9MVU1FXV0iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJkZWNpbWFscyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJpbnQiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJkZWNfcG9pbnQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii4iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6InRob3VzYW5kc19zZXAiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiwiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlZPTFVNRSIsImlzX2RlZiI6ZmFsc2V9XX0=*/
+            VAR_VOLUME = _to_number(VAR_VOLUME,"",".",",");
+            section_end()!
+
+            section_start("", 51337)!
+            /*Dat:eyJzIjoiRXhjZWxfV3JpdGVUb0NlbGwiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2VsbEFkZHJlc3MiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkJbW0VYQ0VMX1BPU0lUSU9OXV0iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJEYXRhIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1ZPTFVNRV1dIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWUsImlzX2RlZiI6dHJ1ZX1dfQ==*/
+            _call_function(Excel_WriteToCell,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "CellAddress":("B" + VAR_EXCEL_POSITION), "Data":(VAR_VOLUME), "Convert":(false), "SetFormat":(true), "Sync":(true), "Timeout":(60000)})!
+            section_end()!
+
             section_start("", 495441555)!
             /*Dat:eyJzIjoiaW5jdmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IlNldFZhcmlhYmxlTmFtZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiVE9UQUxfVk9MVU1FIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IkluY1ZhcmlhYmxlVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbVk9MVU1FXV0iLCJjbGFzcyI6ImV4cHJlc3Npb24iLCJpc19kZWYiOmZhbHNlfV19*/
             VAR_TOTAL_VOLUME = parseInt(VAR_TOTAL_VOLUME) + parseInt(VAR_VOLUME)
             section_end()!
 
+            section_start("", 738620739)!
+            /*Dat:eyJzIjoiaW5jdmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IlNldFZhcmlhYmxlTmFtZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiRVhDRUxfUE9TSVRJT04iLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiSW5jVmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMSIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfV19*/
+            VAR_EXCEL_POSITION = parseInt(VAR_EXCEL_POSITION) + parseInt(1)
+            section_end()!
+
             section_start("", 439973003)!
             /*Dat:eyJzIjoiaW5jdmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IlNldFZhcmlhYmxlTmFtZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiUE5MX1BPU0lUSVZFX1VTRVJTIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IkluY1ZhcmlhYmxlVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEiLCJjbGFzcyI6ImludCIsImlzX2RlZiI6dHJ1ZX1dfQ==*/
             VAR_PNL_POSITIVE_USERS = parseInt(VAR_PNL_POSITIVE_USERS) + parseInt(1)
+            section_end()!
+
+            section_start("", 978013607)!
+            /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJMb2dUZXh0IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BOTF9QT1NJVElWRV9VU0VSU11dIHwgW1tVU0VSTkFNRV1dIHwgW1tWT0xVTUVdXSQiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9XX0=*/
+            log(VAR_PNL_POSITIVE_USERS + " | " + VAR_USERNAME + " | " + VAR_VOLUME + "$")
             section_end()!
 
          })!
@@ -177,68 +295,29 @@
    })!
    section_end()!
 
-   section_start("", 744552519)!
-   /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJMb2dUZXh0IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJUb3RhbCBWb2x1bWU6IFtbVE9UQUxfVk9MVU1FXV0iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9XX0=*/
-   log("Total Volume: " + VAR_TOTAL_VOLUME)
+   section_start("", 346002556)!
+   /*Dat:eyJzIjoibG9nZ2VyX2xvZyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoicnUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlRvdGFsIFBOTDogW1tUT1RBTF9WT0xVTUVdXSAkIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiZW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlRvdGFsIFBOTDogW1tUT1RBTF9WT0xVTUVdXSAkIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoibGV2ZWwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImluZm8iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6ImNvbG9yIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJncmVlbiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX1dfQ==*/
+   logger_log({"color": ("green"), "en": ("Total PNL: " + VAR_TOTAL_VOLUME + " $"), "level": ("info"), "ru": ("Total PNL: " + VAR_TOTAL_VOLUME + " $")})
    section_end()!
 
-   section_start("", 492845822)!
-   /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJMb2dUZXh0IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJVc2VycyB3aXRoIHBvc2l0aXZlIFBOTDogW1tQTkxfUE9TSVRJVkVfVVNFUlNdXSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX1dfQ==*/
-   log("Users with positive PNL: " + VAR_PNL_POSITIVE_USERS)
+   section_start("", 286726114)!
+   /*Dat:eyJzIjoibG9nZ2VyX2xvZyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoicnUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlVzZXJzIHdpdGggcG9zaXRpdmUgUE5MOiBbW1BOTF9QT1NJVElWRV9VU0VSU11dIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiZW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlVzZXJzIHdpdGggcG9zaXRpdmUgUE5MOiBbW1BOTF9QT1NJVElWRV9VU0VSU11dIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoibGV2ZWwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImluZm8iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6ImNvbG9yIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJncmVlbiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX1dfQ==*/
+   logger_log({"color": ("green"), "en": ("Users with positive PNL: " + VAR_PNL_POSITIVE_USERS), "level": ("info"), "ru": ("Users with positive PNL: " + VAR_PNL_POSITIVE_USERS)})
    section_end()!
 
-   section_start("", 189587772)!
-   /*Dat:eyJzIjoiRXhjZWxfQ3JlYXRlRmlsZSIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiRmlsZVBhdGgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbUFJPSkVDVF9ESVJFQ1RPUlldXS9EYWlseV9zdGF0aXN0aWNzLnhsc3giLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9XX0=*/
-   _call_function(Excel_CreateFile,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "Sync":(true), "Timeout":(60000)})!
-   section_end()!
-
-   section_start("", 202103834)!
-   /*Dat:eyJzIjoiRXhjZWxfU2V0Q29sdW1uV2lkdGgiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ29sdW1uSW5kZXhPck5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjAiLCJjbGFzcyI6ImludCIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6IldpZHRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIzNSIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjpmYWxzZX1dfQ==*/
-   _call_function(Excel_SetColumnWidth,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "ColumnIndexOrName":(0), "Width":(35), "Sync":(true), "Timeout":(60000)})!
-   section_end()!
-
-   section_start("", 28227269)!
-   /*Dat:eyJzIjoiRXhjZWxfU2V0Q29sdW1uV2lkdGgiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ29sdW1uSW5kZXhPck5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEiLCJjbGFzcyI6ImludCIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJXaWR0aCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTUiLCJjbGFzcyI6ImludCIsImlzX2RlZiI6ZmFsc2V9XX0=*/
-   _call_function(Excel_SetColumnWidth,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "ColumnIndexOrName":(1), "Width":(15), "Sync":(true), "Timeout":(60000)})!
-   section_end()!
-
-   section_start("", 963082757)!
-   /*Dat:eyJzIjoiRXhjZWxfU2V0U3R5bGVUb0NlbGwiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2VsbEFkZHJlc3MiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkExIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJTdHlsZU5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImJvbGQiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJTdHlsZVZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfV19*/
-   _call_function(Excel_SetStyleToCell,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "CellAddress":("A1"), "StyleName":("bold"), "StyleValue":("true"), "Sync":(true), "Timeout":(60000)})!
-   section_end()!
-
-   section_start("", 140738828)!
-   /*Dat:eyJzIjoiRXhjZWxfV3JpdGVUb0NlbGwiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2VsbEFkZHJlc3MiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkExIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJEYXRhIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJEYXkge3tEYXkgbnVtYmVyfX0gZGF0YSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjp0cnVlfV19*/
-   RS("Day number", false, false)!
-   RESOURCE_319211 = _result().get()
-   _call_function(Excel_WriteToCell,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "CellAddress":("A1"), "Data":("Day " + RESOURCE_319211 + " data"), "Convert":(true), "SetFormat":(true), "Sync":(true), "Timeout":(60000)})!
-   section_end()!
-
-   section_start("", 224525215)!
-   /*Dat:eyJzIjoiRXhjZWxfV3JpdGVUb0NlbGwiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2VsbEFkZHJlc3MiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkEyIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiRGF0YSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiVG90YWwgdm9sdW1lIG9mIHVzZXJzIHdpdGggcG9zaXRpdmUgUE5MIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWUsImlzX2RlZiI6dHJ1ZX1dfQ==*/
-   _call_function(Excel_WriteToCell,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "CellAddress":("A2"), "Data":("Total volume of users with positive PNL"), "Convert":(false), "SetFormat":(true), "Sync":(true), "Timeout":(60000)})!
-   section_end()!
-
-   section_start("", 974976631)!
-   /*Dat:eyJzIjoiRXhjZWxfV3JpdGVUb0NlbGwiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2VsbEFkZHJlc3MiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkEzIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiRGF0YSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiVG90YWwgdXNlcnMgd2l0aCBwb3NpdGl2ZSBQTkwiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWUsImlzX2RlZiI6dHJ1ZX0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWUsImlzX2RlZiI6dHJ1ZX1dfQ==*/
-   _call_function(Excel_WriteToCell,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "CellAddress":("A3"), "Data":("Total users with positive PNL"), "Convert":(true), "SetFormat":(true), "Sync":(true), "Timeout":(60000)})!
-   section_end()!
-
-   section_start("", 271622941)!
-   /*Dat:eyJzIjoiRXhjZWxfV3JpdGVUb0NlbGwiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2VsbEFkZHJlc3MiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkIyIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiRGF0YSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tUT1RBTF9WT0xVTUVdXSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2UsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJDaGVjazIiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOnRydWV9XX0=*/
-   _call_function(Excel_WriteToCell,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "CellAddress":("B2"), "Data":(VAR_TOTAL_VOLUME), "Convert":(false), "SetFormat":(true), "Sync":(true), "Timeout":(60000)})!
-   section_end()!
-
-   section_start("", 705896218)!
-   /*Dat:eyJzIjoiRXhjZWxfV3JpdGVUb0NlbGwiLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGVQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV0vRGFpbHlfc3RhdGlzdGljcy54bHN4IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2hlZXRJbmRleE9yTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2VsbEFkZHJlc3MiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkIzIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiRGF0YSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tQTkxfUE9TSVRJVkVfVVNFUlNdXSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjp0cnVlfV19*/
-   _call_function(Excel_WriteToCell,{"FilePath":(VAR_PROJECT_DIRECTORY + "/Daily_statistics.xlsx"), "SheetIndexOrName":(0), "CellAddress":("B3"), "Data":(VAR_PNL_POSITIVE_USERS), "Convert":(true), "SetFormat":(true), "Sync":(true), "Timeout":(60000)})!
+   section_start("", 594680825)!
+   /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJGdW5jdGlvbk5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJFeGNlbF9kYXRhIn1dfQ==*/
+   _call_function(Excel_data,{})!
+   _result_function()
    section_end()!
 
 })!]]></Script>
      <ModuleInfo><![CDATA[{
 }
 ]]></ModuleInfo>
-     <Modules/>
+     <Modules>
+          <Module Name="logger"><![CDATA[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]]></Module>
+     </Modules>
      <EmbeddedData><![CDATA[[]]]></EmbeddedData>
      <DatabaseId>Database.32571</DatabaseId>
      <Schema></Schema>
@@ -249,7 +328,7 @@
      <ConnectionPassword></ConnectionPassword>
      <ScriptName>ScriptName</ScriptName>
      <ProtectionStrength>4</ProtectionStrength>
-     <UnusedModules>URL;InMail;PhoneVerification;ClickCaptcha</UnusedModules>
+     <UnusedModules>ClickCaptcha;InMail;URL;PhoneVerification</UnusedModules>
      <ScriptIcon>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</ScriptIcon>
      <IsCustomIcon>false</IsCustomIcon>
      <HideBrowsers>false</HideBrowsers>
@@ -314,16 +393,16 @@ Detector=false
     &quot;SmsReceive&quot;: false
 }
 </ModulesMetaJson>
-     <InterfaceState>{&quot;variables&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;CYCLE_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DATA&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DAY_NUMBER&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;JSON&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;OFFSET&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PNL_POSITIVE_USERS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;POSITIVE_PNL&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PROJECT_DIRECTORY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TOTAL_VOLUME&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;VOLUME&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;DATA\&quot;]&quot;:true,&quot;[\&quot;DATA\&quot;,0]&quot;:true,&quot;[\&quot;DATA\&quot;,99]&quot;:true,&quot;[\&quot;DATA\&quot;,1]&quot;:true,&quot;[\&quot;JSON\&quot;]&quot;:true}},&quot;resources&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;Day number&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{}},&quot;callstack&quot;:{&quot;filters&quot;:[]}}</InterfaceState>
-     <OutputTitle1 en="First Results" ru="First Results"/>
-     <OutputTitle2 en="Second Results" ru="Second Results"/>
-     <OutputTitle3 en="Third Results" ru="Third Results"/>
-     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
-     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
-     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
-     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
-     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
-     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
+     <InterfaceState>{&quot;variables&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;CYCLE_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DATA&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DAY_NUMBER&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;EXCEL_POSITION&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;JSON&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;OFFSET&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PNL_POSITIVE_USERS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;POSITIVE_PNL&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PROJECT_DIRECTORY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TOTAL_VOLUME&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;USERNAME&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;VOLUME&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;DATA\&quot;]&quot;:false,&quot;[\&quot;DATA\&quot;,0]&quot;:true,&quot;[\&quot;DATA\&quot;,99]&quot;:true,&quot;[\&quot;DATA\&quot;,1]&quot;:true,&quot;[\&quot;JSON\&quot;]&quot;:false}},&quot;resources&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;Day number&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;Excel Position\&quot;]&quot;:false}},&quot;callstack&quot;:{&quot;filters&quot;:[]}}</InterfaceState>
+     <OutputTitle1 ru="First Results" en="First Results"/>
+     <OutputTitle2 ru="Second Results" en="Second Results"/>
+     <OutputTitle3 ru="Third Results" en="Third Results"/>
+     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -336,10 +415,10 @@ Detector=false
      <ModelList>
           <Model>
                <Name> </Name>
-               <Description en=" " ru=" "/>
+               <Description ru=" " en=" "/>
                <SectionName ru=""/>
                <HintVisible>0</HintVisible>
-               <Hint en="" ru=""/>
+               <Hint ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Information</Type>
@@ -347,18 +426,18 @@ Detector=false
                <Visible>1</Visible>
                <Enabled>1</Enabled>
                <AllowedTypes>Information</AllowedTypes>
-               <Info en="***BACKPACK BETA RUSH DAILY***" ru="***BACKPACK BETA RUSH DAILY***"/>
-               <ComputedInfo en="&lt;p&gt;&lt;i&gt;&lt;strong&gt;BACKPACK BETA RUSH DAILY&lt;/strong&gt;&lt;/i&gt; &lt;/p&gt;" ru="&lt;p&gt;&lt;i&gt;&lt;strong&gt;BACKPACK BETA RUSH DAILY&lt;/strong&gt;&lt;/i&gt; &lt;/p&gt;"/>
+               <Info ru="***BACKPACK BETA RUSH DAILY***" en="***BACKPACK BETA RUSH DAILY***"/>
+               <ComputedInfo ru="&lt;p&gt;&lt;i&gt;&lt;strong&gt;BACKPACK BETA RUSH DAILY&lt;/strong&gt;&lt;/i&gt; &lt;/p&gt;" en="&lt;p&gt;&lt;i&gt;&lt;strong&gt;BACKPACK BETA RUSH DAILY&lt;/strong&gt;&lt;/i&gt; &lt;/p&gt;"/>
                <UnderSpoiler>0</UnderSpoiler>
-               <SpoilerTitle en="" ru=""/>
+               <SpoilerTitle ru="" en=""/>
           </Model>
           <Defaults/>
           <Model>
                <Name> </Name>
-               <Description en=" " ru=" "/>
+               <Description ru=" " en=" "/>
                <SectionName ru=""/>
                <HintVisible>0</HintVisible>
-               <Hint en="" ru=""/>
+               <Hint ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Information</Type>
@@ -366,18 +445,18 @@ Detector=false
                <Visible>1</Visible>
                <Enabled>1</Enabled>
                <AllowedTypes>Information</AllowedTypes>
-               <Info en="[Dev channel](https://t.me/shrimp_to_whale)" ru="[Dev channel](https://t.me/shrimp_to_whale)"/>
-               <ComputedInfo en="&lt;p&gt;&lt;a style=&quot;color:#ffffff;&quot; href=&quot;https://t.me/shrimp&lt;em&gt;to&lt;/em&gt;whale&quot;&gt;Dev channel&lt;/a&gt; &lt;/p&gt;" ru="&lt;p&gt;&lt;a style=&quot;color:#ffffff;&quot; href=&quot;https://t.me/shrimp&lt;em&gt;to&lt;/em&gt;whale&quot;&gt;Dev channel&lt;/a&gt; &lt;/p&gt;"/>
+               <Info ru="[Dev channel](https://t.me/shrimp_to_whale)" en="[Dev channel](https://t.me/shrimp_to_whale)"/>
+               <ComputedInfo ru="&lt;p&gt;&lt;a style=&quot;color:#ffffff;&quot; href=&quot;https://t.me/shrimp&lt;em&gt;to&lt;/em&gt;whale&quot;&gt;Dev channel&lt;/a&gt; &lt;/p&gt;" en="&lt;p&gt;&lt;a style=&quot;color:#ffffff;&quot; href=&quot;https://t.me/shrimp&lt;em&gt;to&lt;/em&gt;whale&quot;&gt;Dev channel&lt;/a&gt; &lt;/p&gt;"/>
                <UnderSpoiler>0</UnderSpoiler>
-               <SpoilerTitle en="" ru=""/>
+               <SpoilerTitle ru="" en=""/>
           </Model>
           <Defaults/>
           <Model>
                <Name> </Name>
-               <Description en=" " ru=" "/>
+               <Description ru=" " en=" "/>
                <SectionName ru=""/>
                <HintVisible>0</HintVisible>
-               <Hint en="" ru=""/>
+               <Hint ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Information</Type>
@@ -385,18 +464,18 @@ Detector=false
                <Visible>1</Visible>
                <Enabled>1</Enabled>
                <AllowedTypes>Information</AllowedTypes>
-               <Info en="***SETTINGS***" ru="***SETTINGS***"/>
-               <ComputedInfo en="&lt;p&gt;&lt;i&gt;&lt;strong&gt;SETTINGS&lt;/strong&gt;&lt;/i&gt; &lt;/p&gt;" ru="&lt;p&gt;&lt;i&gt;&lt;strong&gt;SETTINGS&lt;/strong&gt;&lt;/i&gt; &lt;/p&gt;"/>
+               <Info ru="***SETTINGS***" en="***SETTINGS***"/>
+               <ComputedInfo ru="&lt;p&gt;&lt;i&gt;&lt;strong&gt;SETTINGS&lt;/strong&gt;&lt;/i&gt; &lt;/p&gt;" en="&lt;p&gt;&lt;i&gt;&lt;strong&gt;SETTINGS&lt;/strong&gt;&lt;/i&gt; &lt;/p&gt;"/>
                <UnderSpoiler>0</UnderSpoiler>
-               <SpoilerTitle en="" ru=""/>
+               <SpoilerTitle ru="" en=""/>
           </Model>
           <Defaults/>
           <Model>
                <Name>Day number</Name>
-               <Description en="Day number" ru="Day number"/>
+               <Description ru="Day number" en="Day number"/>
                <SectionName ru=""/>
                <HintVisible>0</HintVisible>
-               <Hint en="" ru=""/>
+               <Hint ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
