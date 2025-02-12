@@ -12,4 +12,4 @@ Channel: https://t.me/shrimp_to_whale
 - **Results Logging**: Upon completion, all data (usernames, user PNL's, total PNL and users with positive PNL count) will be saved to Project_directory\Daily_Statistics.xlsx.
   
 **Data recording example**
-![image](https://github.com/user-attachments/assets/75a909c3-6fdb-479a-835c-b0120ba4f2d8)
+![image](https://github.com/user-attachments/assets/5d68c4e8-27e6-4d1e-bb43-48f5c3309144)
