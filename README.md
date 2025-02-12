@@ -2,7 +2,7 @@ Channel: https://t.me/shrimp_to_whale
 
 **SETTINGS**
 
-![image](https://github.com/user-attachments/assets/c876e808-2672-4ef2-bb9e-b141a84e8f5a)
+![image](https://github.com/user-attachments/assets/7d4baf2c-3927-4f09-8804-14da59f34ab9)
 
 **MAIN INFO**
 - **Launching**: Just select the number of the campaign day for which you would like to get statistics.
